@@ -1,1 +1,40 @@
+2015/11 
 
+Traduction en français de la 2e partie (Term 2) des leçons du Code club. 
+
+(https://github.com/CodeClubLux/scratch-curriculum/tree/master/en-GB/Term%202)
+
+Le projet utilise Scratch 2
+
+Si vous effectuer une traduction, merci de modifier l'en-tête du fichier Markdown de la façon suivante: 
+
+title: Memory
+level: Scratch 2
+language: fr-FR
+stylesheet: scratch
+embeds: "*.png"
+materials: ["Club Leader Resources/*"]
+...
+stylesheet: scratch
+embeds: ".png"
+materials: ["Club Leader Resources/.*"]
+base: https://github.com/CodeClub/scratch-curriculum/blob/master/en-GB/Term%202/Memory/Memory.md
+
+translators: 'your name here'
+reviewer: 'your name here'
+status: free ...
+
++ 1 
+
+"filename": "Memory/Memory.md",
+
++ 2 
+"filename": "Dodgeball/Dodgeball.md"
++ 3 
+"filename": "Brain Game/Brain Game.md"
++ 4 
+"filename": "Catch the Dots/Catch the Dots.md"
++ 5 
+"filename": "Clone Wars/Clone Wars.md",
++ 6 
+"filename": "Create Your Own World/Create Your Own World.md"
