@@ -4,7 +4,7 @@ level: Scratch 2
 language: en-GB
 stylesheet: scratch
 embeds: "*.png"
-materials: ["Club Leader Resources/*.*"]
+materials: ["Club Leader Resources/*"]
 ...
 
 ## Community Contributed Project { .challenge .pdf-hidden }
@@ -15,8 +15,8 @@ This project was created with Erik and his daughter Ruth. If you'd like to contr
 In this project, you will create a memory game where you have to memorise and repeat a sequence of random colours!
 
 <div class="scratch-preview">
-	<iframe allowtransparency="true" width="485" height="402" src="http://scratch.mit.edu/projects/embed/34874510/?autostart=false" frameborder="0"></iframe>
-	<img src="colour-final.png">
+  <iframe allowtransparency="true" width="485" height="402" src="http://scratch.mit.edu/projects/embed/34874510/?autostart=false" frameborder="0"></iframe>
+  <img src="colour-final.png">
 </div>
 
 # Step 1: Random colours { .activity }
@@ -42,7 +42,7 @@ First, let's create a character that can change to a random sequence of colours 
 
 	![screenshot](colour-costume.png)
 
-+ To create a random sequence, you need to create a _list_. A list is just a variable that stores lots of data _in order_. Create a new list called `sequence` {.blockdata}. As only your character needs to see the list, we can also click 'For this sprite only'.
++ To create a random sequence, you need to create a __list__. A list is just a variable that stores lots of data __in order__. Create a new list called `sequence` {.blockdata}. As only your character needs to see the list, we can also click 'For this sprite only'.
 
 	![screenshot](colour-list.png)
 

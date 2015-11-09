@@ -2,7 +2,6 @@
 title: Catch the Dots — Notes for Club Leaders
 language: en-GB
 embeds: "*.png"
-materials: [""]
 ...
 
 #Introduction:
@@ -22,7 +21,7 @@ There is also a version of this project with the external resources pre-loaded. 
 This link also includes a 'Project Resources' folder, which contains images that children will need to complete this project. Make sure that each child has access to a copy of these resources.
 
 Project resources:
-+ controller.png;
++ controller.svg;
 
 #Learning Objectives
 + This project consolidates learning of previous programming skills learnt.

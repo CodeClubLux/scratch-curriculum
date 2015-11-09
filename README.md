@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/codeclub/scratch-curriculum.png?label=ready&title=Ready)](https://waffle.io/codeclub/scratch-curriculum)
 # Code Club Scratch Curriculum
 
 This repository contains all the material for Term 1 and 2 of [Code Club][codeclub].
@@ -8,7 +9,7 @@ __More information on our curriculum can be found [here](https://github.com/Code
 
 # New Projects
 
-If you're a club leader trying out new projects, please complete <a href="https://docs.google.com/forms/d/1eMCfpYe3v7eYu5M8rSqLKlmq7cczLCLHx66csgyUyVU/viewform?usp=send_form" target="_blank">this short questionnaire</a> (or email projects@codeclub.org.uk) to let us know how it went!
+If you are a club leader trying out new projects, please complete <a href="https://docs.google.com/forms/d/1eMCfpYe3v7eYu5M8rSqLKlmq7cczLCLHx66csgyUyVU/viewform?usp=send_form" target="_blank">this short questionnaire</a> (or email projects@codeclub.org.uk) to let us know how it went!
 
 ## Contributing
 
