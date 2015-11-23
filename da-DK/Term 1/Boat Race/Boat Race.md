@@ -26,7 +26,7 @@ Du skal lære hvordan du laver et spil, hvor man bruger musen til at styre en b�
 	+ Træ som din båd skal undgå; 
 	+ En øde ø som din båd skal nå.
 
-Sådan skal dit spil se ud:
+	Sådan skal dit spil se ud:
 
 	![screenshot](boat-bg.png) 
 
@@ -42,15 +42,15 @@ Sådan skal dit spil se ud:
 
 + Du skal kontrollere båden med din mus. Tilføj denne kode til din båd:
 
-```blocks 
-		når du klikker på ⚑
-		peg i retning (0 v)
-		gå til x:(-190) y:(-150)
-		for evigt
-  				 peg mod [musepil v]
-  			 gå (1) trin
-		end 
-```  
+	```blocks 
+			når du klikker på ⚑
+			peg i retning (0 v)
+			gå til x:(-190) y:(-150)
+			for evigt
+	  				 peg mod [musepil v]
+	  			 gå (1) trin
+			end 
+	```  
 
 + Afprøv din båd ved at klikke på flaget og flyt på musen. Sejler båden mod musen? 
 
@@ -58,7 +58,7 @@ Sådan skal dit spil se ud:
 
 + Hvad sker der, hvis båden når hen til musemarkøren? 
 
-For at forhindre det, er du nødt til at føje en `hvis` {.blockcontrol} blok til din kode, således at båden kun bevæger sig hvis den befinder sig mere end 5 pixels fra båden.
+	For at forhindre det, er du nødt til at føje en `hvis` {.blockcontrol} blok til din kode, således at båden kun bevæger sig hvis den befinder sig mere end 5 pixels fra båden.
 
 	![screenshot](boat-pointer.png)	
 
@@ -80,17 +80,17 @@ Din båd kan sejle gennem træbarriererne! Lad os finde en løsning.
 
 + Tilføj denne kode til din båd indeni `for evigt` {.blockcontrol} loopen, således at den styrter sammen, når den rører hvilke som helst former for brune træstykker:
 
-```blocks 
-			hvis <berører farven [#603C15]?> så
-   			skift kostume til [ramt v]
-   			sig [Noooooo!] i (1) sekunder
-   			skift kostume til [normal v]
-   			peg i retning (0 v)
-   			gå til x:(-215) y:(-160)
-		end
-``` 
+	```blocks 
+		hvis <berører farven [#603C15]?> så
+			skift kostume til [ramt v]
+			sig [Noooooo!] i (1) sekunder
+			skift kostume til [normal v]
+			peg i retning (0 v)
+			gå til x:(-215) y:(-160)
+	end
+	``` 
 
-Denne kode ligger indeni `for evigt` {.blockcontrol} loopen, så din kode bliver ved med at tjekke om din båd er stødt sammen med noget.
+	Denne kode ligger indeni `for evigt` {.blockcontrol} loopen, så din kode bliver ved med at tjekke om din båd er stødt sammen med noget.
 	
 + Sørg også for at din båd altid starter ud med at se ud som 'normal'.   
 
@@ -131,14 +131,14 @@ Lad os tilføje et stopur til dit spil, så spilleren skal nå hen til den øde 
 
 + Tilføj denne kode til din __scene__, således at dit stopur tæller op til tidspunktet, hvor din båd når hen til den øde ø:
 
-```blocks 
+	```blocks 
 		når du klikker på ⚑
 		sæt [tid v] til [0] 
 		for evigt
-   			vent (0.1) sekunder
-   				ændr [tid v] med (0.1)
+				vent (0.1) sekunder
+					ændr [tid v] med (0.1)
 		end 
-```  
+	```  
 
 + Det var det! Afprøv dit spil og se hvor hurtigt du kan nå hen til den øde ø!
 
@@ -158,11 +158,11 @@ Spillet er _alt_ for nemt - lad os tilføje nogle ting og gøre det mere spænde
 
 + Nu kan du tilføje noget kode til din båds `for evigt` {.blockcontrol} loop, således at den flytter sig 2 _ekstra_ trin, når den rører en hvid forstærkning.
 
-```blocks 
-	hvis <berører farven [#FFFFFF]?> så 
-   	  gå (3) trin
-	end 
-``` 
+	```blocks 
+		hvis <berører farven [#FFFFFF]?> så 
+	   	  gå (3) trin
+		end 
+	``` 
 
 + Du kan også tilføje en svingende port, som din båd skal undgå. Tilføj en ny sprite ved navn 'port', der ser således ud:
 
@@ -200,8 +200,8 @@ Kan du tilføje flere forhindringer til dit spil? Her er nogle idéer:
 Disse blokke kan måske hjælpe dig:
 
 ```blocks
-		gå (1) trin
-		hop tilbage ved kanten
+	gå (1) trin
+	hop tilbage ved kanten
 ```` 
 
 Hvis din nye genstand ikke er brun, så skal du tilføje dette til koden for din båd:
@@ -251,9 +251,11 @@ Du får også brug for en kode, som kan `dreje` {.blockmotion} båden, når der 
 
 ## Udfordring: Flere niveauer! {.challenge .new-page}
 Kan du lave nogle flere baggrunde og gøre det muligt for spilleren at vælge mellem forskellige niveauer?
+
 ```blocks
 	når du trykker på [mellemrum v]
     næste baggrund
 ``` 
+
 ## Gem dit projekt { .save } 
  
