@@ -25,9 +25,10 @@ Nu skal du lære hvordan du programmerer din egen talende robot!
 	+ Hvor bor den?
 	+ Er den glad? alvorlig? sjov? genert? venlig?
 
+
 + Start et nyt Scratch projekt, og slet katte-spriten så dit projekt står tomt. Du kan finde Scratch redigeringsprogrammet online på <a href="http://jumpto.cc/scratch-new">jumpto.cc/scratch-new</a>.
 
-+ Vælg en af disse sprite figurer, og tilføj den til dit projekt:
++ Vælg en af disse sprite-figurer, og tilføj den til dit projekt:
 
 	![screenshot](chatbot-characters.png)
 
@@ -148,11 +149,11 @@ Læg mærke til, at nu hvor du har gemt brugerens navn i en variabel, så kan du
 
 Hvis du tager et kig på din chatbots kostumer, så vil du måske se at der er flere end én. (Hvis ikke, så kan du altid tilføje flere selv!) 
 
-	![screenshot](chatbot-costumes.png)
+![screenshot](chatbot-costumes.png)
 
-	Du kan bruge disse kostumer, som del af din chatbots respons, ved at tilføje denne kode:
-	
-	![screenshot](chatbot-costumes-code.png)
+Du kan bruge disse kostumer, som del af din chatbots respons, ved at tilføje denne kode:
+
+![screenshot](chatbot-costumes-code.png)
 
 + Afprøv dit program. Nu bør se at chatbottens ansigt ændrer sig afhængig af, hvilket svar du giver. 
 
