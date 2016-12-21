@@ -1,0 +1,21 @@
+{
+    "id": "scratch-2",
+    "title": "Scratch 2",
+    "description": "",
+    "language": "de-DE",
+    "number": 2,
+    "projects": [
+        {
+            "number":   1,
+            "filename": "Memory/Memory.md",
+            "beta":     true,
+            "note":     "Memory/Memory - notes.md"
+        },
+        {
+            "number":   1,
+            "filename": "Treffball/Treffball.md",
+            "beta":     true,
+            "note":     "Treffball/Treffball - Notizen.md"
+        }
+    ]
+}
